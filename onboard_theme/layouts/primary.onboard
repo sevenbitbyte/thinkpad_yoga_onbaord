@@ -1,0 +1,189 @@
+<?xml version="1.0" ?>
+<keyboard format="3.1" id="primary" section="system" summary="Desktop keyboard with edit and function keys">
+  <include file="key_defs.xml"/>
+  <box border="0.5" orientation="vertical" spacing="3">
+    <!--- word suggestions -->
+    <panel filename="primary-Alpha.svg" scan_priority="1">
+      <include file="word_suggestions.xml"/>
+    </panel>
+    <box spacing="3">
+      <!--- keyboard, multiple layers -->
+      <panel>
+        <panel filename="primary-Alpha.svg" layer="alpha">
+          <key group="alphanumeric" id="AB01"/>
+          <key group="alphanumeric" id="AE02"/>
+          <key group="alphanumeric" id="AE03"/>
+          <key group="alphanumeric" id="AD09"/>
+          <key group="alphanumeric" id="AE01"/>
+          <key group="alphanumeric" id="AE06"/>
+          <key group="alphanumeric" id="AE07"/>
+          <key group="alphanumeric" id="AE04"/>
+          <key group="alphanumeric" id="AE05"/>
+          <key group="alphanumeric" id="AD03"/>
+          <key group="alphanumeric" id="AD02"/>
+          <key group="alphanumeric" id="AD01"/>
+          <key group="alphanumeric" id="AE09"/>
+          <key group="alphanumeric" id="AD07"/>
+          <key group="alphanumeric" id="AD06"/>
+          <key group="alphanumeric" id="AD05"/>
+          <key group="alphanumeric" id="AD04"/>
+          <key group="alphanumeric" id="AB10"/>
+          <key group="alphanumeric" id="AC11"/>
+          <key group="alphanumeric" id="AC10"/>
+          <key group="alphanumeric" id="TLDE"/>
+          <key group="alphanumeric" id="LSGT"/>
+          <key group="alphanumeric" id="BKSL"/>
+          <key group="misc" id="CAPS"/>
+          <key group="shifts" id="LFSH"/>
+          <key group="shifts" id="RTSH"/>
+          <key group="bottomrow" id="LCTL"/>
+          <key group="bottomrow" id="RCTL"/>
+          <key group="bottomrow" id="LALT"/>
+          <key group="bottomrow" id="RALT"/>
+          <key group="bottomrow" id="LWIN"/>
+          <key group="misc" id="TAB"/>
+          <key group="backspace" id="BKSP" label_x_align="0.0"/>
+          <key group="misc" id="RTRN" label_x_align="0.65"/>
+          <key group="bottomrow" id="MENU"/>
+          <key group="alphanumeric" id="AD10"/>
+          <key group="alphanumeric" id="AD11"/>
+          <key group="alphanumeric" id="AD12"/>
+          <key group="alphanumeric" id="AB08"/>
+          <key group="alphanumeric" id="AE11"/>
+          <key group="alphanumeric" id="AE10"/>
+          <key group="alphanumeric" id="AE12"/>
+          <key group="alphanumeric" id="AC04"/>
+          <key group="alphanumeric" id="AC05"/>
+          <key group="alphanumeric" id="AC06"/>
+          <key group="alphanumeric" id="AC07"/>
+          <key group="alphanumeric" id="AB09"/>
+          <key group="alphanumeric" id="AC01"/>
+          <key group="alphanumeric" id="AC02"/>
+          <key group="alphanumeric" id="AC03"/>
+          <key group="alphanumeric" id="AB05"/>
+          <key group="alphanumeric" id="AB04"/>
+          <key group="alphanumeric" id="AE08"/>
+          <key group="alphanumeric" id="AB06"/>
+          <key group="alphanumeric" id="AC08"/>
+          <key group="alphanumeric" id="AC09"/>
+          <key group="alphanumeric" id="AB03"/>
+          <key group="alphanumeric" id="AB02"/>
+          <key group="alphanumeric" id="AD08"/>
+          <key group="alphanumeric" id="AB07"/>
+          <key group="bottomrow" id="RWIN"/>
+          <key group="bottomrow" id="SPCE"/>
+          <key group="bottomrow" id="LWIN"/>
+          <key group="printblock" id="Prnt" scan_priority="3"/>
+          <key group="printblock" id="Pause" scan_priority="3"/>
+          <key group="printblock" id="Scroll" scan_priority="3"/>
+          <key group="directions" id="LEFT" scan_priority="3"/>
+          <key group="directions" id="RGHT" scan_priority="3"/>
+          <key group="directions" id="UP" scan_priority="3"/>
+          <key group="directions" id="DOWN" scan_priority="3"/>
+          <key group="editing" id="INS" scan_priority="3"/>
+          <key group="editing" id="DELE" image="" label="Del" scan_priority="3"/>
+          <key group="editing" id="HOME" scan_priority="3"/>
+          <key group="editing" id="END" scan_priority="3"/>
+          <key group="editing" id="PGUP" scan_priority="3"/>
+          <key group="editing" id="PGDN" scan_priority="3"/>
+          <!-- function key row with click buttons visible -->
+          <box group="click" orientation="horizontal">
+            <key group="bottomrow" id="ESC" scan_priority="2"/>
+            <key group="fkeys" id="F1" scan_priority="2"/>
+            <key group="fkeys" id="F2" scan_priority="2"/>
+            <key group="fkeys" id="F3" scan_priority="2"/>
+            <key group="fkeys" id="F4" scan_priority="2"/>
+            <key group="fkeys" id="F5" scan_priority="2"/>
+            <key group="fkeys" id="F6" scan_priority="2"/>
+            <key group="fkeys" id="F7" scan_priority="2"/>
+            <key group="fkeys" id="F8" scan_priority="2"/>
+            <key group="fkeys" id="F9" scan_priority="2"/>
+            <key group="fkeys" id="F10" scan_priority="2"/>
+            <key group="fkeys" id="F11" scan_priority="2"/>
+            <key group="fkeys" id="F12" scan_priority="2"/>
+            <key group="click" id="middleclick"/>
+            <key group="click" id="secondaryclick"/>
+          </box>
+          <key border="2" group="click" id="doubleclick"/>
+          <key border="2" group="click" id="dragclick"/>
+          <key border="2" group="click" id="hoverclick"/>
+          <!-- function key row with click buttons invisible -->
+          <panel group="noclick" scan_priority="2">
+            <key group="bottomrow" id="ESC"/>
+            <key group="fkeys" id="F1"/>
+            <key group="fkeys" id="F2"/>
+            <key group="fkeys" id="F3"/>
+            <key group="fkeys" id="F4"/>
+            <key group="fkeys" id="F5"/>
+            <key group="fkeys" id="F6"/>
+            <key group="fkeys" id="F7"/>
+            <key group="fkeys" id="F8"/>
+            <key group="fkeys" id="F9"/>
+            <key group="fkeys" id="F10"/>
+            <key group="fkeys" id="F11"/>
+            <key group="fkeys" id="F12"/>
+          </panel>
+        </panel>
+        <panel border="2" filename="primary-Numpad.svg" layer="numpad">
+          <key group="keypadmisc" id="NMLK" scan_priority="1"/>
+          <key group="keypadoperators" id="KPSU" scan_priority="1"/>
+          <key group="keypadoperators" id="KPDV" scan_priority="1"/>
+          <key group="keypadoperators" id="KPAD" scan_priority="1"/>
+          <key group="keypadoperators" id="KPMU" scan_priority="1"/>
+          <key group="keypadnumber" id="KP0" scan_priority="1"/>
+          <key group="keypadnumber" id="KP1" scan_priority="1"/>
+          <key group="keypadnumber" id="KP2" scan_priority="1"/>
+          <key group="keypadnumber" id="KP3" scan_priority="1"/>
+          <key group="keypadnumber" id="KP4" scan_priority="1"/>
+          <key group="keypadnumber" id="KP5" scan_priority="1"/>
+          <key group="keypadnumber" id="KP6" scan_priority="1"/>
+          <key group="keypadnumber" id="KP7" scan_priority="1"/>
+          <key group="keypadnumber" id="KP8" scan_priority="1"/>
+          <key group="keypadnumber" id="KP9" scan_priority="1"/>
+          <key group="keypadmisc" id="KPDL" scan_priority="1"/>
+          <key group="keypadmisc" id="KPEN" scan_priority="1"/>
+          <key group="keypadmisc" id="io0" label='Laptop' script='laptop'/>
+          <key group="keypadmisc" id="io1" label='Tablet' script='tablet'/>
+          <key group="keypadmisc" id="io2" label='Drawing' script='drawing'/>
+          <key group="snippets" id="m3"/>
+          <key group="snippets" id="m4"/>
+          <key group="snippets" id="m5"/>
+          <key group="snippets" id="m6"/>
+          <key group="snippets" id="m7"/>
+          <key group="snippets" id="m8"/>
+          <key group="snippets" id="m9"/>
+          <key group="snippets" id="m10"/>
+          <key group="snippets" id="m11"/>
+          <key group="snippets" id="m12"/>
+          <key group="snippets" id="m13"/>
+          <key group="snippets" id="m14"/>
+          <key group="snippets" id="m15"/>
+          <key group="bottomrow" id="quit" scan_priority="2"/>
+          <key group="bottomrow" id="settings" scan_priority="2"/>
+        </panel>
+      </panel>
+      <!--- side bar -->
+      <panel filename="primary-Alpha.svg" id="paneswitch">
+        <box compact="true" orientation="vertical">
+          <panel group="nowordlist">
+            <key group="bottomrow" id="hide"/>
+            <box orientation="vertical">
+              <key expand="false" group="bottonrow" id="move"/>
+              <key expand="false" group="bottomrow" id="showclick"/>
+              <key group="bottomrow" id="layer0" scan_priority="4"/>
+              <key group="bottomrow" id="layer1" scan_priority="4"/>
+            </box>
+          </panel>
+          <panel group="wordlist">
+            <key expand="false" group="bottonrow" id="move" svg_id="move.wordlist"/>
+            <box orientation="vertical">
+              <key expand="false" group="bottomrow" id="showclick" svg_id="showclick.wordlist"/>
+              <key group="bottomrow" id="layer0" scan_priority="4" svg_id="layer0.wordlist"/>
+              <key group="bottomrow" id="layer1" scan_priority="4" svg_id="layer1.wordlist"/>
+            </box>
+          </panel>
+        </box>
+      </panel>
+    </box>
+  </box>
+</keyboard>
